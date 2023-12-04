@@ -7,16 +7,17 @@
 </head>
 <body>
 <header>
-  <h1 style="background-color:rgb(147, 176, 201)"> SMART WATER LEVEL MONITOR</h1>
+  <h1 style="background-color:rgb(147, 176, 201)">SAVE ENVIRONMENT GATE</h1>
 </header>
 <div class="wrapper">
   <section id="desc">
-    <h2>Pantau potensi banjir dengan Smart Water Level Monitor!</h2>
-    <p>Alat ini didesain untuk mendeteksi ketinggian air dan memberikan peringatan berupa bunyi dan indikator lampu.</p>
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2367327/widgets/762749"></iframe>
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2367327/widgets/762751"></iframe>
+    <h2>Pantau kondisi dan adanya penyusup dengan Sistem Save Environment Gate!</h2>
+    <p>Alat ini didesain untuk mendeteksi suhu, kelembapan, dan jarak, sehingga lingkungan aman dan bebas penyusup.</p>
+    <iframe id="field-1" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2366767/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temperature&type=line"></iframe>
+    <iframe id="field-2" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2366767/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+    <iframe id="field-3" width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2366767/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
   </section>
 </div>
-  <script src="script.js"></script>
+  <script src="public/script.js"></script>
 </body>
 </html>
